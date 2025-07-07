@@ -4,15 +4,15 @@ By Xavier Campos
 
 ### Introduction
 
-If you've ever wanted to build a full-featured productivity app with a modern developer experience, you've likely come across React, and maybe even Next.js. In my capstone project, I'm building Axxon — an all-in-one productivity platform inspired by Notion, Trello, and Monday.com. The goal is to provide solo developers, small teams, organizations, and even the everyday person a centralized place to manage tasks, habits, communication, and performance analytics.
+If you've ever wanted to build a full-featured productivity app with a modern developer experience, you've likely come across React and maybe even Next.js. In my capstone project, I'm building Axxon — an all-in-one productivity platform inspired by Notion, Trello, and Monday.com. The goal is to provide solo developers, small teams, organizations, and everyday individuals with a centralized platform to manage tasks, habits, communication, and performance analytics.
 
-To make this happen, I’m using Next.js and TanStack Router with TypeScript, and a backend powered by PostgreSQL via Knex.js. The tech stack is chosen for its scalability, user caching, client-side routing, and ability to support server-side rendering with typing from typescript. TanStack was also chosen due to its capabilites with UI design. This blog is meant for developers already comfortable with JavaScript who want to take the leap into building more robust, interactive, and type-safe applications.
+To make this happen, I’m using Next.js and TanStack Router with TypeScript, and a backend powered by PostgreSQL via Knex.js. The tech stack is chosen for its scalability, user caching, client-side routing, and ability to support server-side rendering with Type safety from TypeScript. TanStack was also selected due to its capabilities with UI design. This blog is intended for developers who are already comfortable with JavaScript and want to leap into building more robust, interactive, and type-safe applications.
 
 ## Why Next.js and TanStack?
 
-Next.js is a popular React framework developed by Vercel that makes it easy to build both static and server-rendered React applications. Its features include file-based routing, API routes, server-side rendering (SSR), and optimized performance right out of the box. In many ways, it takes care of the boilerplate you'd otherwise spend hours messing with.
+Next.js is a popular React framework developed by Vercel that makes it easy to build both static and server-rendered React applications. Its features include file-based routing, API routes, server-side rendering (SSR), and optimized performance. In many ways, it takes care of the boilerplate you'd otherwise spend hours messing with.
 
-TanStack Router, on the other hand, is a newer and more flexible router built for React applications. It replaces traditional routing solutions like React Router with something more scalable, type-safe, and composable.TanStack Routers offer tha cabability to utilize caching with `useQuery()` and crud modifications with cache entirely from these routes with methods like `useMutation()` which can trigger mutations on cached queries and `userQueryClient()` which can allow you to directly interact with the query cache. Due to these features and many additional capabilities, TanStack is gaining recognitiona as a freamwork that offers tight TypeScript integration as a TypeScript-first framework with powerful UI capabilites.
+TanStack Router, on the other hand, is a newer and more flexible router built for React applications. It replaces traditional routing solutions like React Router with something more scalable, type-safe, and composable.TanStack Routers offer the capability to utilize caching with `useQuery()` and CRUD modifications with caching entirely from these routes with methods like `useMutation()`, which can trigger mutations on cached queries, and `useQueryClient()`, which can allow you to directly interact with the query cache. Due to these features and many additional capabilities, TanStack is gaining recognition as a framework that offers tight TypeScript integration as a TypeScript-first framework with powerful UI capabilities.
 
 ## Core Concepts
 
@@ -134,15 +134,15 @@ React Router has always been the go-to for client-side routing, but it has a ste
 
 ### Next.js vs Express
 
-In the Core Curriculum, we built REST APIs using Express, which is great for backend-first apps. However, in projects like Axxon where frontend and backend are tightly coupled ( like with OAuth or SSR), Next.js allows us to define backend API routes alongside frontend pages. This makes development feel more cohesive and reduces mental overhead.
+In the Core Curriculum, we built REST APIs using Express, which is great for backend-first apps. However, in projects like Axxon, where frontend and backend are tightly coupled ( like with OAuth or SSR), Next.js allows us to define backend API routes alongside frontend pages. This makes development feel more cohesive and reduces mental overhead.
 
 ### Why use TypeScript
 
-For many reasons TypeScript is better than JavaScript when learning to make an application that you want to troubleshoot, develop and scale with ease. The reason im utilizing TS for this project is actually because TanStack is a TypeScript-first framework that loses many benefits if not used. Alongside that, Next.js a framework that works extrordinarily well with Next.js. The typesafe features, the easy configuration, and the amazing developer experience when troubleshooting has made typescript a better experience than working with JavaScript since it's a superset of js, allowing you to be able to develop in a similar approach.
+For many reasons, TypeScript is better than JavaScript when learning to make an application that you want to troubleshoot, develop, and scale with ease. The reason I'm utilizing TS for this project is that TanStack is a TypeScript-first framework that loses many benefits if not used. Alongside that, Next.js is a framework that works extraordinarily well with Next.js. The typesafe features, the easy configuration, and the amazing developer experience when troubleshooting have made TypeScript a better experience than working with JavaScript, since it's a superset of JavaScript, allowing you to develop in a similar approach.
 
 # Final Thoughts & Tips for Learning
 
-Learning Next.js with TypeScript and TanStack might seem intimidating at first, but the payoff is worth it. You get full-stack flexibility, type safety, and tools that work hand in hand with your app's complexity. If you're looking to build something like my app these tools are an excellent foundation for so many reasons.
+Learning Next.js with TypeScript and TanStack might seem intimidating at first, but the payoff is worth it. You get full-stack flexibility, type safety, and tools that work hand in hand with your app's complexity. If you're looking to build something like my app, these tools are an excellent foundation for so many reasons.
 
 Here are some tips for building an app with this tech stack:
 
